@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.spinner-border{
+  left: 16%;
+  margin-left: -4em;
+  position: relative;
+  margin-top: 4em;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
