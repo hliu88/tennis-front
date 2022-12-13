@@ -9,6 +9,24 @@
   margin-top: 4em;
 }
 
+.row {
+  display: flex;
+  text-align: center;
+}
+
+tbody, td, tfoot, th, thead, tr {
+  text-align: center;
+}
+
+.column {
+  flex: 50%;
+}
+
+p {
+  text-align: inherit;
+  margin-left: 12rem;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
