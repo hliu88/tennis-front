@@ -224,7 +224,7 @@ const App = () => {
           </thead>
           <tbody>
             {props.notavail ?  <div class="column"><p>No Matches Available</p></div>:
-            (props && props.match_table && props.match_table.slice(1, props.match_table.length).map((item, index) => {
+            (props && props.match_table && props.match_table.slice(0, props.match_table.length).map((item, index) => {
               return (
                 <tr>
                   <td>{item[0]}</td>
